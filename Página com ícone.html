@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 5px 10px 10px 10px;
+
+}
+
+input[type=text].icone{
+  background-color: white;
+  background-image: url('icone.png');
+  background-position: 5px 5px;
+  background-size:25px 25px;
+  background-repeat: no-repeat;
+  padding-left:30px;
+}
+</style>
+
+
+<form action="/action_page.php">
+
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value="" ><br> <br>
+
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+
+  <label for="lpesquisa">Pesquisa:</label><br>
+  <input class="icone" type="text" id="lpesquisa" name="lpesquisa" value=""><br><br>
+
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Redefinir">
+
+</form>
+
+</body>
+</html>
