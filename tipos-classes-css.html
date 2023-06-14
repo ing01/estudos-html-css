@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<style>
+.center { /* formata style em todo seletor que tiver a classe */
+  text-align: center;
+  color: red;
+}
+
+p.center2 { /* formata style apenas nos paragrafos com a classe */
+  text-align: center;
+  color: red;
+}
+
+p.fonte {
+  text-align: center;
+  color: red;
+}
+
+p.tamanho {
+  font-size: 300%;
+}
+
+</style>
+</head>
+  
+<body>
+
+<h1 class="center">Classe1</h1>
+<p>Se não for especificada na linha, não funciona.</p>
+<p class="center">A identificação universal ".center" funciona onde for incluida, pois não há especificações. </p> 
+<p class="center2">Mesmo que inclusa em "H1", não funciona.</p>
+<p class="fonte">Cada parágrafo possui uma identificação diferente.</p> 
+<p class="fonte tamanho">As mesmas so servem para parágrafos, como especificadas no código.</p>
+
+</body>
+</html>
